@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="icon" href="logo2.jpg" class="rounded-circle" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background Video -->
+  <div class="video-container">
+    <video autoplay muted loop id="bg-video">
+      <source src="bgvideo1.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="video-overlay">
+      <h1 class="video-title">Gallery</h1>
+    </div>
+  </div>
+ <div class="logo-container">
+    <img src="logo2.jpg" alt="travel logo" class="rounded-circle" />
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-white justify-content-center border-top border-bottom py-3">
+    <div class="container justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item px-3">
+          <a class="nav-link fw-bold text-dark" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link fw-bold text-dark" href="#gallery.html">GALLERY</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link fw-bold text-dark" href="contact.html">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Gallery Section -->
+  <!-- Gallery Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Explore India with Us</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="mb-4">
+        <figure>
+          <img src="hill1.jpg" class="img-fluid rounded shadow" alt="Hills" 
+               style="width: 100%; height: 500px; object-fit: cover;" />
+          <figcaption style="text-align: center;">Manali hills, Uttarakhand</figcaption>        
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="beach1.jpg" class="img-fluid rounded shadow" alt="Sea Beach" 
+               style="width: 100%; height: 500px; object-fit: cover;" />
+          <figcaption style="text-align: center;">Calangute, Goa</figcaption>
+        </figure>  
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mb-4">
+        <figure>
+          <img src="monument.jpg" class="img-fluid rounded shadow" alt="Monument" 
+               style="width: 100%; height: 500px; object-fit: cover;" />
+          <figcaption style="text-align: center;">Taj Mahal, Agra</figcaption>        
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="jungle1.jpg" class="img-fluid rounded shadow" alt="Jungle" 
+               style="width: 100%; height: 500px; object-fit: cover;" />
+          <figcaption style="text-align: center;">Sariska Tiger Reserve, Rajasthan</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Carousel --> 
+    <div class="container my-4">
+  <div id="demo" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 600px;">
+   <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="10" aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="11" aria-label="Slide 12"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="12" aria-label="Slide 13"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="13" aria-label="Slide 14"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="14" aria-label="Slide 15"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="15" aria-label="Slide 16"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="16" aria-label="Slide 17"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="17" aria-label="Slide 18"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="18" aria-label="Slide 19"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="19" aria-label="Slide 20"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="20" aria-label="Slide 21"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="21" aria-label="Slide 22"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="22" aria-label="Slide 23"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="23" aria-label="Slide 24"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="24" aria-label="Slide 25"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="25" aria-label="Slide 26"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="26" aria-label="Slide 27"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="27" aria-label="Slide 28"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="28" aria-label="Slide 29"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="29" aria-label="Slide 30"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="30" aria-label="Slide 31"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="31" aria-label="Slide 32"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="32" aria-label="Slide 33"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="33" aria-label="Slide 34"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="34" aria-label="Slide 35"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="35" aria-label="Slide 36"></button>
+    </div>
+    
+
+    <!-- Carousel Images -->
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img src="hill2.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach2.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monument1.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle2.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill3.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach3.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments2.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle3.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill4.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach4.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments3.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle4.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill5.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach5.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments12.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle5.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill6.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach6.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments11.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle6.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill7.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach7.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments14.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle7.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill8.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach8.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments10.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle8.jpg" class="d-block w-100" alt="Jungle" /></div>
+
+      <div class="carousel-item"><img src="hill9.jpg" class="d-block w-100" alt="Hill" /></div>
+      <div class="carousel-item"><img src="beach9.jpg" class="d-block w-100" alt="Beach" /></div>
+      <div class="carousel-item"><img src="monuments9.jpg" class="d-block w-100" alt="Monument" /></div>
+      <div class="carousel-item"><img src="jungle9.jpg" class="d-block w-100" alt="Jungle" /></div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+</div>
+  <!-- Social Media Links Section -->
+<section class="social-media-links text-center my-4">
+  <a href="https://www.facebook.com/everwildTravellers" target="_blank" class="social-icon">
+    <i class="fab fa-facebook fa-2x"></i> <!-- Facebook Icon -->
+  </a>
+  <a href="https://www.youtube.com/c/everwildTravellers" target="_blank" class="social-icon mx-3">
+    <i class="fab fa-youtube fa-2x"></i> <!-- YouTube Icon -->
+  </a>
+  <a href="https://www.instagram.com/everwild_insta" target="_blank" class="social-icon">
+    <i class="fab fa-instagram fa-2x"></i> <!-- Instagram Icon -->
+  </a>
+  <a href="https://twitter.com/everwildtravellers" target="_blank" class="social-icon mx-3">
+    <i class="fab fa-twitter fa-2x"></i> <!-- Twitter Icon -->
+  </a>
+  <a href="https://www.linkedin.com/company/everwildtravellers" target="_blank" class="social-icon">
+    <i class="fab fa-linkedin fa-2x"></i> <!-- LinkedIn Icon -->
+  </a>
+</section>
+<h5 style="text-align: center; margin: 0 auto;">&copy; 2015 EverWild Traveller All Rights Reserved</h5>
+
+</body>
+</html>
